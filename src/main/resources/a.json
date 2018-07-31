@@ -1,0 +1,93 @@
+{
+  "id": "SBI_18",
+  "state": "FAILED",
+  "progress": 9,
+  "start_time": 1532397525323,
+  "step": "HostHostnameResolveValidator",
+  "extension": {
+    "detailedProgress": {
+      "HostnameChangeConditionPrechecker": {
+        "field": "null",
+        "name": "HostnameChangeConditionPrechecker",
+        "exitCode": "COMPLETED",
+        "description": null,
+        "estimation": 1,
+        "placeHolderValues": []
+      },
+      "VcAccountConnectivityPrechecker": {
+        "field": "null",
+        "name": "VcAccountConnectivityPrechecker",
+        "exitCode": "COMPLETED",
+        "description": null,
+        "estimation": 1,
+        "placeHolderValues": []
+      },
+      "HostAccountConnectivityPrechecker": {
+        "field": "null",
+        "name": "HostAccountConnectivityPrechecker",
+        "exitCode": "COMPLETED",
+        "description": null,
+        "estimation": 1,
+        "placeHolderValues": []
+      },
+      "VsanHealthPrechecker": {
+        "field": "null",
+        "name": "VsanHealthPrechecker",
+        "exitCode": "COMPLETED",
+        "description": null,
+        "estimation": 1,
+        "placeHolderValues": []
+      },
+      "VxMmonitorMutePrechecker": {
+        "field": "null",
+        "name": "VxMmonitorMutePrechecker",
+        "exitCode": "COMPLETED",
+        "description": null,
+        "estimation": 1,
+        "placeHolderValues": []
+      },
+      "HostNumberPrechecker": {
+        "field": "null",
+        "name": "HostNumberPrechecker",
+        "exitCode": "COMPLETED",
+        "description": null,
+        "estimation": 1,
+        "placeHolderValues": []
+      },
+      "HostShouldNotInAnyUserDirectoryPrechecker": {
+        "field": "null",
+        "name": "HostShouldNotInAnyUserDirectoryPrechecker",
+        "exitCode": "COMPLETED",
+        "description": null,
+        "estimation": 1,
+        "placeHolderValues": []
+      },
+      "HostMaintenanceStatePrechecker": {
+        "field": "null",
+        "name": "HostMaintenanceStatePrechecker",
+        "exitCode": "COMPLETED",
+        "description": null,
+        "estimation": 1,
+        "placeHolderValues": []
+      },
+      "HostHostnameValidator": {
+        "field": "null",
+        "name": "HostHostnameValidator",
+        "exitCode": "COMPLETED",
+        "description": null,
+        "estimation": 1,
+        "placeHolderValues": []
+      },
+      "HostHostnameResolveValidator": {
+        "field": "hostname",
+        "name": "HostHostnameResolveValidator",
+        "exitCode": "FAILED",
+        "description": "ValidationDnsRecordMissed",
+        "estimation": 1,
+        "placeHolderValues": [
+          "engdell1-02-new.localdomain.local"
+        ]
+      }
+    }
+  }
+}
